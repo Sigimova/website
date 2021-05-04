@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>
-		Автомобили AUDI
+		Последние новости
 	</title>
 
 	<style type="text/css">
@@ -11,7 +11,7 @@
 	.head {
 	height: 200px; 
     width: 100%; 
-    background: url(images/Audi.png);
+    background: url(../images/Audi.png);
     background-size: 100% 130%;
     margin: 0px;
 	}
@@ -19,18 +19,43 @@
 		width: 100%;
 		margin: 0px 0px;
 	}	
-	a { 
+	 .head2 {
+  	height: 200px; 
+    width: 100%; 
+    background: #000000;
+    background-size: 100% 130%;
+	 margin: 0px}
+	a { color: #000000;
     text-decoration: none;
    } 
    .rightpic {
     float: left; /* Выравнивание по правому краю */
     margin: 0 0 10px 10px; /* Отступы вокруг фотографии */
    }
+   .news { 
+   margin-left: 30px; }
+   .container{
+        display: block;
+        height: 20px;
+        overflow: hidden ;  /*управляет отображением содержания блочного элемента (Отображается только область внутри элемента, остальное будет скрыто)*/
+        width: 500px;
+    
+				}
+
+	.container:hover{
+	overflow:visible; /*Отображается все содержание элемента, даже за пределами установленной высоты и ширины.*/
+    height: 300px;
+					}
+	.spisok { 
+	
+	color: black;
+
+		 }
 	</style>
 	
 </head>
 <body> 
-	<div  class="head" style="background-image: url(//images/Audi.png);">
+ <header>	<div  class="head" style="background-image: url(../images/Audi.png);">
 	<h1 style=" color: #ffffff;padding: 25px 600px; "> <big><big><big> AUDI</big></big></big></h1>
 </div>
 <div>
@@ -39,35 +64,109 @@
 			<tr style="color : #ffffff; background: #121111 ">
 				<th><ul>
 					
-						<a href="website.html" style="color: #ffffff" > Общая информация </a>
+						<a href="../website.html" style="color: #ffffff" > Общая информация </a>
 					
 				</ul> 
 			    </th>
 
 				<th><ul>
 					
-						<a href="News/News.html" style="color: #ffffff"> Последние новости </a>
+						<a href="../News/News.html" style="color: #ffffff"> Последние новости </a>
 					
 				</ul> 
 				</th>
 
 				<th><ul>
 					
-						<a href="Gallery/Gallery.html" style="color: #ffffff"> Галерея марок  </a>
+						<a href="../Gallery/Gallery.html" style="color: #ffffff"> Галерея марок  </a>
 					
 				</ul> 
 		        </th>
 
 				<th><ul>
 					
-						<a href="Contacts/Contacts.html" style="color: #ffffff" > Контакты  </a>
+						<a href="../Contacts/Contacts.html" style="color: #ffffff" > Дополнительно  </a>
 					
 				</ul> 
 				</th>
 			</tr>
 		</thead>
 	</table>
+ </header>
+
+ 	<div class="container" style="margin-left: 200px;margin-top: 30px">
+		<a ><big><i><b>Модельный ряд 2021</b></i></big> </a>
+
+	<ul style="margin-left: 200px">
+        <li><a href="modeli/1.html" style="color: black;">Audi SQ8</a></li>
+        <li><a href="modeli/2.html" style="color: black;">Audi RS Q8</a></li>
+        <li><a href="modeli/3.html" style="color: black;">Audi Q8</a></li>
+        <li><a href="modeli/4.html" style="color: black;">Audi SQ7</a></li>
+        <li><a href="modeli/5.html" style="color: black;">Audi Q7</a></li>
+        <li><a href="modeli/6.html" style="color: black;">Audi RS Q8</a></li>
+        <li><a href="modeli/7.html" style="color: black;">Audi A8(D5)</a></li>
+	</ul>
+	</div>
+
+<div class="news">
+	<p><h1>Новости Audi</h1></p>
+<p class="news">
+	<img src="1/01.jpg" class="news">
+	<p><b>85 000 часов в поддержку экологии:сотрудники Audi приняли участие в Дне климата Volkswagen</b></p>
+	<a href="1/n1.html">Читать дальше  ></a>
+</p>
+<p class="news">
+	<img src="2/01.jpg" class="news" width="630" height="450">
+	<p><b>Новые Audi A3 Sedan и Audi A3 Sportback специальной серии Young&Drive: прогресс, который можно ощутить здесь и сейчас!</b></p>
+	<a href="2/n2.html">Читать дальше  ></a>
+</p>
+<p class="news">
+	<img src="3/01.jpg" class="news" width="630" height="450">
+	<p><b>Audi Q4 e-tron: мировая онлайн-премьера</b></p>
+	<a href="3/n3.html">Читать дальше  ></a>
+</p>
+<p class="news">
+	<img src="4/01.jpg" class="news" width="630" height="450">
+	<p><b>Драйв по твоим правилам: Audi Россия запускает премиальный сервис подписки на автомобили Audi Drive</b></p>
+	<a href="4/n4.html">Читать дальше  ></a>
+</p>
+<p class="news">
+	<img src="5/01.jpg" class="news" width="630" height="450">
+	<p><b>Спорт, эмоции, quattro: Audi покоряет новые вершины на спортивно-музыкальном фестивале New Star Camp 2021 в Сочи</b></p>
+	<a href="5/n5.html">Читать дальше  ></a>
+</p>
+<p class="news">
+	<img src="6/01.jpeg" class="news" width="630" height="450">
+	<p><b>Обновленный Audi A4 раскрывает талант двигаться к цели в прогрессивно-виртуальном пространстве Audi в универмаге «Цветной»</b></p>
+	<a href="6/n6.html">Читать дальше  ></a>
+</p>
+<p class="news">
+	<img src="7/01.jpg" class="news" width="630" height="450">
+	<p><b>Обновленный Audi Q5. Пятизвездочный SUV</b></p>
+	<a href="7/n7.html">Читать дальше  ></a>
+</p>
 </div>
+	<div> 
+	  <noindex> 
+ 		<a href="../website.html" > 
+ 			<img class= "img" src="../images/стрелка.png" width="100" height="50" alt="back" style="margin-left: 500px; margin-bottom: 50px"  >
+ 		</a>
+ 	  </noindex>
+ 	</div>
+
+<footer><div class="head2" >
+ 	<noindex> 
+ 		<a href="https://vk.com/sigimova_ad" > 
+ 			<img class= "img" src="../images/vk.png" width="50" height="50" alt="vk" style="margin-left: 500px; margin-top: 50px"  >
+ 		</a>
+ 		<a href="https://www.instagram.com/sigimova_ad" > 
+ 			<img class= "img" src="../images/inst.png" width="50" height="50" alt="instagram" >
+ 		</a>
+ 	</noindex>
+ 	
+ </div>
+</footer>
+
 
 </body>
 
