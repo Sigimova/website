@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Дополнитеьная информация</title>
+  <title>Дополнительная информация</title>
   <style type="text/css">
 	* {
 		padding: 0} 
@@ -46,10 +46,16 @@
 	.gallery {
 		margin-left: 50px;}
 	.dop { 
-		margin-left: 550px;
+		margin-left: 50px;
 		margin-top: 50px;
-		margin-bottom: 50px;
-		 }
+		margin-bottom: 50px;}
+	.form {
+		width: 200px;
+		background-color: #326488;
+		margin: 0 auto;
+		padding: 20px;}
+	form input:not([type="checkbox"; type="radio"]){
+		width: 100%}
   </style>
 </head>
   <body>
@@ -91,7 +97,28 @@
 		</thead>
 	</table>
  </header>
- <p>
+ <h1>Пройдите, пожалуйста, опрос</h1>
+ <div class="forma" >
+ 	<form method="GET" id="search">
+ 		<label for="name">Представьтесь</label>
+ 		<input type="text" name="fio" id="name" placeholder="ФИО">
+ 		<div>
+ 			<label for="date">Дата рождения</label>
+ 		</div>
+ 		<div>
+ 		<input type="date" name="date" id="date">
+ 		</div>
+ 		<div>	
+ 		<label for="vybor"> Была ли полезна информация, представленная на сайте?</label>
+ 		</div>
+ 		<div>
+ 		<input type="radio" name="vybor"> "Да"
+ 		<input type="radio" name="vybor"> "Нет"
+ 		</div>
+ 	</form>
+ 	
+ </div>
+ <div><p>
  	<ul class="dop"><big><big> 
  	  <li>Официальный сайт Audi: <a href="https://www.audi.ru/ru/web/ru.html">Audi.ru</a></li>
 
@@ -103,6 +130,7 @@
  	</big></big></ul>
  	
  </p>
+ </div>
 
  <div> 
 	  <noindex> 
