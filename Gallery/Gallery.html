@@ -5,37 +5,11 @@
   <style type="text/css">
 	* {
 		padding: 0} 
-	.head {
-		height: 200px; 
-	    width: 100%; 
-	    background: url(../images/Audi.png);
-	    background-size: 100% 130%;
-	    margin: 0px;}
-	.head1 {
-		width: 100%;
-		margin: 0px 0px;}	
-	.head2 {
-	  	height: 200px; 
-	    width: 100%; 
-	    background: #000000;
-	    background-size: 100% 130%;
-		margin: 0px}
 	a { 
 		color: #000000;
     	text-decoration: none;} 
-    .rightpic {
-	    float: left; /* Выравнивание по правому краю */
-	    margin: 0 0 10px 10px; /* Отступы вокруг фотографии */}
     .news { 
    		margin-left: 30px;}
-    .container {
-        display: block;
-        height: 20px;
-        overflow: hidden ;  /*управляет отображением содержания блочного элемента (Отображается только область внутри элемента, остальное будет скрыто)*/
-        width: 500px;}
-	.container:hover {
-		overflow:visible; /*Отображается все содержание элемента, даже за пределами установленной высоты и ширины.*/
-	    height: 300px;}
 	.spisok {
 		color: black;}
 	.imgG { 
@@ -48,51 +22,59 @@
 		transform: scale(1.2);}
 	.gallery {
 		margin-left: 50px;}
+	header {
+		width: 100%;
+		height: 240px;
+		background: url(../images/Audi.png) no-repeat center;
+		text-align: center;
+	    background-size: 100%;
+	    color: #ffffff;
+	    font-size: 5ex;
+	    margin: 0px}
+	.menu {
+		height: 20%; 
+	    width: 100%; 
+	    background-size: 100% 130%;}
+	.menu2{
+		background-color: #000000;
+		border: 2px double white;
+		padding: 1%;
+		margin-right: 20px;
+		margin-left: 10px;
+		color: #ffffff;}
+	h1{ 
+		font-size: 250%; }
+	body {
+		background-color: #212121;}
+	footer{
+		width: 100%;
+		height: 200px;
+		text-align: center;
+		background: #000000;
+	    background-size: 100% 130%;
+	    margin-top: 20px;
+	    padding: 20px}
   </style>
 </head>
 <body>
- <header>	<div  class="head" style="background-image: url(../images/Audi.png);">
-	<h1 style=" color: #ffffff;padding: 25px 600px; "> <big><big><big> AUDI</big></big></big></h1>
-</div>
-<div>
-	<table class="head1"> 
-		<thead>
-			<tr style="color : #ffffff; background: #121111 ">
-				<th><ul>
-					
-						<a href="../website.html" style="color: #ffffff" > Общая информация </a>
-					
-				</ul> 
-			    </th>
+ <header>
+	<div style="margin-top: 0px">
+	<h1>AUDI</h1>
+    </div>
+    <div >
+      <span class="menu">
+      	<a class="menu2" href="../website.html" >Общая информация</a>
+      	<a class="menu2" href="../News/News.html">Последние новости </a>
+      	<a class="menu2" href="Gallery.html">Галерея марок</a>
+      	<a class="menu2" href="../Contacts/Contacts.html">Дополнительно</a>
+      </span>
+    </div>
+  </header>
 
-				<th><ul>
-					
-						<a href="../News/News.html" style="color: #ffffff"> Последние новости </a>
-					
-				</ul> 
-				</th>
-
-				<th><ul>
-					
-						<a href="../Gallery/Gallery.html" style="color: #ffffff"> Галерея марок  </a>
-					
-				</ul> 
-		        </th>
-
-				<th><ul>
-					
-						<a href="../Contacts/Contacts.html" style="color: #ffffff" > Дополнительно  </a>
-					
-				</ul> 
-				</th>
-			</tr>
-		</thead>
-	</table>
- </header>
  <div class="gallery">
  	<ul>
-	  <h1><b><i><big>Audi e-tron</big></i></b></h1>
-	   <li><h2><b>Audi e-tron</b></h2></li>
+	  <h1 style="color: white"><b><i><big>Audi e-tron</big></i></b></h1>
+	   <li style="color: white"><h2><b>Audi e-tron</b></h2></li>
 	 	 <img class="imgG" src="Audi e-tron/1.1.jpg">
 	 	 <img class="imgG" src="Audi e-tron/1.2.jpg">
 	 	 <img class="imgG" src="Audi e-tron/1.3.jpg">
@@ -102,7 +84,7 @@
 	 	 <img class="imgG" src="Audi e-tron/1.7.jpg">
 	 	 <img class="imgG" src="Audi e-tron/1.8.jpg">
 	 	 <img class="imgG" src="Audi e-tron/1.9.jpg">
-	   <li><h2><b>Audi e-tron Sportback</b></h2></li>
+	   <li style="color: white"><h2><b>Audi e-tron Sportback</b></h2></li>
 	 	 <img class="imgG" src="Audi e-tron/2.1.jpg">
 	 	 <img class="imgG" src="Audi e-tron/2.2.jpg">
 	 	 <img class="imgG" src="Audi e-tron/2.3.jpg">
@@ -112,8 +94,8 @@
 	 	 <img class="imgG" src="Audi e-tron/2.7.jpg">
 	 	 <img class="imgG" src="Audi e-tron/2.8.jpg">
 	 	 <img class="imgG" src="Audi e-tron/2.9.jpg">
-	  <h1><b><i><big>Audi A3</big></i></b></h1>
-	   <li><h2><b>Audi A3 Sportback</b></h2></li>
+	  <h1 style="color: white"><b><i><big>Audi A3</big></i></b></h1>
+	   <li style="color: white"><h2><b>Audi A3 Sportback</b></h2></li>
 	     <img class="imgG" src="Audi A3/1.1.jpg">
 	 	 <img class="imgG" src="Audi A3/1.2.jpg">
 	 	 <img class="imgG" src="Audi A3/1.3.jpg">
@@ -123,7 +105,7 @@
 	 	 <img class="imgG" src="Audi A3/1.7.jpg">
 	 	 <img class="imgG" src="Audi A3/1.8.jpg">
 	 	 <img class="imgG" src="Audi A3/1.9.jpg">
-	   <li><h2><b>Audi A3 Sedan</b></h2></li>
+	   <li style="color: white"><h2><b>Audi A3 Sedan</b></h2></li>
 	   	 <img class="imgG" src="Audi A3/2.1.jpg">
 	 	 <img class="imgG" src="Audi A3/2.2.jpg">
 	 	 <img class="imgG" src="Audi A3/2.3.jpg">
@@ -144,17 +126,14 @@
  	  </noindex>
  	</div>
 
-<footer><div class="head2" >
- 	<noindex> 
- 		<a href="https://vk.com/sigimova_ad" > 
- 			<img class= "img" src="../images/vk.png" width="50" height="50" alt="vk" style="margin-left: 500px; margin-top: 50px"  >
- 		</a>
- 		<a href="https://www.instagram.com/sigimova_ad" > 
- 			<img class= "img" src="../images/inst.png" width="50" height="50" alt="instagram" >
- 		</a>
- 	</noindex>
- 	
- </div>
-</footer>
+<footer>
+	 <span style="color:white;"><big>Права пренадлежат Сигимовой А.Д.</big></span>
+	 	<div><a href="https://vk.com/sigimova_ad" > 
+	 			<img class= "img" src="../images/vk.png" width="50" height="50" alt="vk">
+	 		</a>
+	 		<a href="https://www.instagram.com/sigimova_ad" > 
+	 			<img class= "img" src="../images/inst.png" width="50" height="50" alt="instagram" >
+	 		</a></div>
+ </footer>
 </body>
 </html>

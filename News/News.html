@@ -6,91 +6,79 @@
  <style type="text/css">
 	* {
 		padding: 0} 
-	.head {
-		height: 200px; 
-	    width: 100%; 
-	    background: url(../images/Audi.png);
-	    background-size: 100% 130%;
-	    margin: 0px;}
-	.head1 {
-		width: 100%;
-		margin: 0px 0px;}	
-	.head2 {
-	  	height: 200px; 
-	    width: 100%; 
-	    background: #000000;
-	    background-size: 100% 130%;
-		margin: 0px}
 	a { 
 		color: #000000;
     	text-decoration: none;} 
-    .rightpic {
-	    float: left; /* Выравнивание по правому краю */
-	    margin: 0 0 10px 10px; /* Отступы вокруг фотографии */}
     .news { 
-   		margin-left: 10px; }
+   		margin-left: 10px;
+   		color: #d3e2eb; }
    	.ImgN {
    		width: 700px;
    		height: 450px;}
 	.spisok { 
 		color: black;}
 	.conteiner {
-		border: 3px double black; 
+		border: 5px double black; 
 		float: right;
 		padding: 30px 50px 200px 50px;
 		margin-right: 100px;
 		margin-top: 70px;
-		background-color: #e3dfde;
-	}
+		background-color: #e3dfde;}
+	header {
+		width: 100%;
+		height: 240px;
+		background: url(../images/Audi.png) no-repeat center;
+		text-align: center;
+	    background-size: 100%;
+	    color: #ffffff;
+	    font-size: 5ex;
+	    margin: 0px}
+	.menu {
+		height: 20%; 
+	    width: 100%; 
+	    background-size: 100% 130%;}
+	.menu2{
+		background-color: #000000;
+		border: 2px double white;
+		padding: 1%;
+		margin-right: 20px;
+		margin-left: 10px;
+		color: #ffffff;}
+	h1{ 
+		font-size: 250%; }
+	body {
+		background-color: #212121;}
+	footer{
+		width: 100%;
+		height: 200px;
+		text-align: center;
+		background: #000000;
+	    background-size: 100% 130%;
+	    margin-top: 20px;
+	    padding: 20px}
  </style>
 	
 </head>
+
 <body> 
  <header>
- 	<div  class="head" style="background-image: url(../images/Audi.png);">
-		<h1 style=" color: #ffffff;padding: 25px 600px; "> <big><big><big> AUDI</big></big></big></h1>
+	<div style="margin-top: 0px">
+	<h1>AUDI</h1>
     </div>
- <div>
-	<table class="head1"> 
-		<thead>
-			<tr style="color : #ffffff; background: #121111 ">
-				<th><ul>
-					
-						<a href="../website.html" style="color: #ffffff" > Общая информация </a>
-					
-				</ul> 
-			    </th>
-
-				<th><ul>
-					
-						<a href="../News/News.html" style="color: #ffffff"> Последние новости </a>
-					
-				</ul> 
-				</th>
-
-				<th><ul>
-					
-						<a href="../Gallery/Gallery.html" style="color: #ffffff"> Галерея марок  </a>
-					
-				</ul> 
-		        </th>
-
-				<th><ul>
-					
-						<a href="../Contacts/Contacts.html" style="color: #ffffff" > Дополнительно  </a>
-					
-				</ul> 
-				</th>
-			</tr>
-		</thead>
-	</table>
-  </div>
-</header>
+    <div >
+      <span class="menu">
+      	<a class="menu2" href="../website.html" >Общая информация</a>
+      	<a class="menu2" href="News.html">Последние новости </a>
+      	<a class="menu2" href="../Gallery/Gallery.html">Галерея марок</a>
+      	<a class="menu2" href="../Contacts/Contacts.html">Дополнительно</a>
+      </span>
+    </div>
+  </header>
 
 <div class="news"> <div class="conteiner">
 		<a><big><i><b>Модельный ряд 2021:</b></i></big></a>
 
-	<ul style="margin-left: 50px">
+	<ul style="margin-left: 50px; ">
         <li><a href="modeli/1.html" style="color: black;">Audi SQ8</a></li>
         <li><a href="modeli/2.html" style="color: black;">Audi RS Q8</a></li>
         <li><a href="modeli/3.html" style="color: black;">Audi Q8</a></li>
@@ -104,37 +92,37 @@
 <p class="news">
 	<img src="1/01.jpg" class="ImgN">
 	<p><b>85 000 часов в поддержку экологии:сотрудники Audi приняли участие в Дне климата Volkswagen</b></p>
-	<a href="1/n1.html">Читать дальше  ></a>
+	<a href="1/n1.html" style="color: #d3e2eb">Читать дальше  ></a>
 </p>
 <p class="news">
 	<img src="2/01.jpg" class="ImgN" >
 	<p><b>Новые Audi A3 Sedan и Audi A3 Sportback специальной серии Young&Drive: прогресс, который можно ощутить здесь и сейчас!</b></p>
-	<a href="2/n2.html">Читать дальше  ></a>
+	<a href="2/n2.html" style="color: #d3e2eb">Читать дальше  ></a>
 </p>
 <p class="news">
 	<img src="3/01.jpg" class="ImgN">
 	<p><b>Audi Q4 e-tron: мировая онлайн-премьера</b></p>
-	<a href="3/n3.html">Читать дальше  ></a>
+	<a href="3/n3.html" style="color: #d3e2eb">Читать дальше  ></a>
 </p>
 <p class="news">
 	<img src="4/01.jpg" class="ImgN">
 	<p><b>Драйв по твоим правилам: Audi Россия запускает премиальный сервис подписки на автомобили Audi Drive</b></p>
-	<a href="4/n4.html">Читать дальше  ></a>
+	<a href="4/n4.html" style="color: #d3e2eb">Читать дальше  ></a>
 </p>
 <p class="news">
 	<img src="5/01.jpg" class="ImgN">
 	<p><b>Спорт, эмоции, quattro: Audi покоряет новые вершины на спортивно-музыкальном фестивале New Star Camp 2021 в Сочи</b></p>
-	<a href="5/n5.html">Читать дальше  ></a>
+	<a href="5/n5.html" style="color: #d3e2eb">Читать дальше  ></a>
 </p>
 <p class="news">
 	<img src="6/01.jpeg" class="ImgN">
 	<p><b>Обновленный Audi A4 раскрывает талант двигаться к цели в прогрессивно-виртуальном пространстве Audi в универмаге «Цветной»</b></p>
-	<a href="6/n6.html">Читать дальше  ></a>
+	<a href="6/n6.html" style="color: #d3e2eb">Читать дальше  ></a>
 </p>
 <p class="news">
 	<img src="7/01.jpg" class="ImgN">
 	<p><b>Обновленный Audi Q5. Пятизвездочный SUV</b></p>
-	<a href="7/n7.html">Читать дальше  ></a>
+	<a href="7/n7.html" style="color: #d3e2eb">Читать дальше  ></a>
 </p>
 </div>
 	<div> 
@@ -145,18 +133,15 @@
  	  </noindex>
  	</div>
 
-<footer><div class="head2" >
- 	<noindex> 
- 		<a href="https://vk.com/sigimova_ad" > 
- 			<img class= "img" src="../images/vk.png" width="50" height="50" alt="vk" style="margin-left: 500px; margin-top: 50px"  >
- 		</a>
- 		<a href="https://www.instagram.com/sigimova_ad" > 
- 			<img class= "img" src="../images/inst.png" width="50" height="50" alt="instagram" >
- 		</a>
- 	</noindex>
- 	
- </div>
-</footer>
+<footer>
+	 <span style="color:white;"><big>Права пренадлежат Сигимовой А.Д.</big></span>
+	 	<div><a href="https://vk.com/sigimova_ad" > 
+	 			<img class= "img" src="../images/vk.png" width="50" height="50" alt="vk">
+	 		</a>
+	 		<a href="https://www.instagram.com/sigimova_ad" > 
+	 			<img class= "img" src="../images/inst.png" width="50" height="50" alt="instagram" >
+	 		</a></div>
+ </footer>
 
 
 </body>

@@ -6,97 +6,69 @@
     .new { 
 	    margin-left: 50px;
 	    margin-right: 50px }
-
-    * {	padding: 0} 
-    .head {
-	    height: 200px; 
-	    width: 100%; 
-	    background: url(../images/Audi.png);
-	    background-size: 100% 130%;
-	    margin: 0px;
-    }
-    .head1{
-        width: 100%;
-        margin: 0px 0px;
-    }   
-     .head2 {
-    	height: 200px; 
-	    width: 100%; 
-	    background: #000000;
-	    background-size: 100% 130%;
-	    margin: 0px}
+    * {	
+        padding: 0} 
     a { 
     	color: #000000;
     	text-decoration: none;} 
-   .rightpic {
-    	float: left; /* Выравнивание по правому краю */
-   		margin: 0 0 10px 10px; /* Отступы вокруг фотографии */}
-   .news { 
-   		margin-left: 30px; }
-   .container{
-        display: block;
-        height: 20px;
-        overflow: hidden ;  /*управляет отображением содержания блочного элемента (Отображается только область внутри элемента, остальное будет скрыто)*/
-        width: 500px;}
-
-    .container:hover{
-    	overflow:visible; /*Отображается все содержание элемента, даже за пределами установленной высоты и ширины.*/
-    	height: 300px;}
-    .spisok { 
-    	color: black;}
     .imgNew{
-    height: 400px;
-    width: 600px;}
-
+        height: 400px;
+        width: 600px;}
+    header {
+        width: 100%;
+        height: 240px;
+        background: url(../../images/Audi.png) no-repeat center;
+        text-align: center;
+        background-size: 100%;
+        color: #ffffff;
+        font-size: 5ex;
+        margin: 0px}
+    .menu {
+        height: 20%; 
+        width: 100%; 
+        background-size: 100% 130%;}
+    .menu2{
+        background-color: #000000;
+        border: 2px double white;
+        padding: 1%;
+        margin-right: 20px;
+        margin-left: 10px;
+        color: #ffffff;}
+    h1{ 
+        font-size: 250%; }
+    body {
+        background-color: #212121;}
+    footer{
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        background: #000000;
+        background-size: 100% 130%;
+        margin-top: 20px;
+        padding: 20px}    
 </style>
 </head>
 <body>
-  <header>   
-     <div  class="head" style="background-image: url(../../images/Audi.png);">
-    <h1 style=" color: #ffffff;padding: 25px 600px; "> <big><big><big> AUDI</big></big></big></h1>
-     </div>
-<div>
-    <table class="head1"> 
-        <thead>
-            <tr style="color : #ffffff; background: #121111 ">
-                <th><ul>
-                    
-                        <a href="../../website.html" style="color: #ffffff" > Общая информация </a>
-                    
-                </ul> 
-                </th>
-
-                <th><ul>
-                    
-                        <a href="../News.html" style="color: #ffffff"> Последние новости </a>
-                    
-                </ul> 
-                </th>
-
-                <th><ul>
-                    
-                        <a href="../../Gallery/Gallery.html" style="color: #ffffff"> Галерея марок  </a>
-                    
-                </ul> 
-                </th>
-
-                <th><ul>
-                    
-                        <a href="../../Contacts/Contacts.html" style="color: #ffffff" > Дополнительно  </a>
-                    
-                </ul> 
-                </th>
-            </tr>
-        </thead>
-    </table>
- </header>
+  <header>
+    <div style="margin-top: 0px">
+    <h1>AUDI</h1>
+    </div>
+    <div >
+      <span class="menu">
+        <a class="menu2" href="../../website.html" >Общая информация</a>
+        <a class="menu2" href="../News.html">Последние новости </a>
+        <a class="menu2" href="../../Gallery/Gallery.html">Галерея марок</a>
+        <a class="menu2" href="../../Contacts/Contacts.html">Дополнительно</a>
+      </span>
+    </div>
+  </header>
   <div class="new">
     <p>
-        <h1><b><big>Драйв по твоим правилам: Audi Россия запускает премиальный сервис подписки на автомобили Audi Drive</big></b></h1>
+        <h2 style="color: #d3e2eb"><b><big>Драйв по твоим правилам: Audi Россия запускает премиальный сервис подписки на автомобили Audi Drive</big></b></h2>
     </p>
     <img class="imgNew" src="01.jpg">
     <p>
-        <ul style="margin-left: 20px">
+        <ul style="margin-left: 20px;color: #d3e2eb">
             <li>
                 Audi Drive – это долгосрочная аренда прогрессивных автомобилей марки с четырьмя кольцами и широкий выбор дополнительных услуг;
             </li>
@@ -108,30 +80,30 @@
             </li>
         </ul>
     </p>
-    <p>
+    <p style="color: #d3e2eb">
        Москва, 31 марта 2021 – Audi Россия объявляет о запуске нового премиального сервиса подписки Audi Drive, благодаря которому пользователь может легко и быстро оформить подписку на автомобиль бренда с четырьмя кольцами сроком на 12 месяцев. Программа реализуется в Москве и Московской области совместно с компанией BelkaCar на их технологической платформе. Audi Drive – это простой и удобный способ обрести свой автомобиль мечты без дополнительных обременений, связанных с его содержанием, обслуживанием и ремонтом. 
     </p>
-    <p>
+    <p style="color: #d3e2eb">
         Комфорт и свобода передвижений в несколько кликов: Audi Россия объявляет о запуске нового сервиса подписки на автомобили премиум-класса Audi Drive, который позволяет испытать истинный драйв за рулем безупречных автомобилей Audi. Сервис подписки Audi Drive ориентирован в первую очередь на водителей нового поколения, которые предпочитают инвестировать в опыт и впечатления. Сервис предоставляет клиентам возможность арендовать прогрессивные автомобили бренда с четырьмя кольцами сроком на 12 месяцев с последующим их использованием на всей территории России. Проект реализуется совместно с компанией BelkaCar и позволяет оформить подписку в Москве и Московской области. По желанию клиента к сервису может быть подключен второй водитель.
     </p>
-    <p>
-        <h3><b>Безупречные эмоции без ограничений</b></h3>
+    <p >
+        <h3 style="color: #d3e2eb"><b>Безупречные эмоции без ограничений</b></h3>
     </p>
-    <p>
+    <p style="color: #d3e2eb">
        Первыми автомобилями, доступными по подписке Audi Drive, станут новейшие Audi A4, Audi A6 и Audi Q3 в исполнении Premium; Audi A5 Coupe, Audi A5 Sportback, Audi Q7 в исполнении Advance и Audi Q8 в исполнении Sport. В дальнейшем список предлагаемых моделей будет расширен. 
     </p>
-    <p>
+    <p style="color: #d3e2eb">
        Прогрессивные, динамичные и эффектные модели Audi гарантируют высочайший уровень комфорта и безопасности, предлагая самые современные информационно-развлекательные и ассистирующие системы, высокоэффективные двигатели и передовые технологии. Широкий набор оборудования удовлетворит требованиям самых взыскательных водителей и позволит ощутить все преимущества владения безупречными автомобилями бренда с четырьмя кольцами. 
     </p>
-    <p> 
-        <h3>Audi Drive меняет представление о мобильности</h3>
+    <p > 
+        <h3 style="color: #d3e2eb">Audi Drive меняет представление о мобильности</h3>
     </p>
-    <p>
+    <p style="color: #d3e2eb">
         Сервис Audi Drive позволяет испытать яркие эмоции от управления прогрессивными автомобилями марки с четырьмя кольцами без лишних обременений. В стоимость подписки Audi Drive входят все расходы, связанные с владением автомобиля: ОСАГО, КАСКО, техническое обслуживание, зимняя резина, сезонная замена шин и их хранение, доставка автомобиля до клиента с мини-презентацией, а также ремонт в случае ДТП, помощь на дороге и даже подменный автомобиль на время технического обслуживания.
     </p>
-    <p>
+    <p style="color: #d3e2eb">
         Стоимость подписки на 1 месяц по программе Audi Drive:
-        <ul>
+        <ul style="color: #d3e2eb; margin-left: 50px">
             <li>Audi A4 – 67 900 рублей</li>
             <li>Audi A5 Coupe – 69 900 рублей</li>
             <li>Audi A5 Sportback – 69 900 рублей</li>
@@ -141,9 +113,7 @@
             <li>Audi Q8 – 128 900 рублей</li>
         </ul>
     </p>
-
   </div>
-
   <div> 
       <noindex> 
         <a href="../News.html" > 
@@ -151,18 +121,14 @@
         </a>
       </noindex>
     </div>
-
-<footer><div class="head2" >
-    <noindex> 
-        <a href="https://vk.com/sigimova_ad" > 
-            <img class= "img" src="../../images/vk.png" width="50" height="50" alt="vk" style="margin-left: 500px; margin-top: 50px"  >
-        </a>
-        <a href="https://www.instagram.com/sigimova_ad" > 
-            <img class= "img" src="../../images/inst.png" width="50" height="50" alt="instagram" >
-        </a>
-    </noindex>
-    
- </div>
-</footer>   
+<footer>
+     <span style="color:white;"><big>Права пренадлежат Сигимовой А.Д.</big></span>
+        <div><a href="https://vk.com/sigimova_ad" > 
+                <img class= "img" src="../../images/vk.png" width="50" height="50" alt="vk">
+            </a>
+            <a href="https://www.instagram.com/sigimova_ad" > 
+                <img class= "img" src="../../images/inst.png" width="50" height="50" alt="instagram" >
+            </a></div>
+ </footer>  
 </body>
 </html>
